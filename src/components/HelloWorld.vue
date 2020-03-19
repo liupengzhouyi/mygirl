@@ -1,8 +1,9 @@
 <template>
   <div class="hello">
+    <img src="../assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
-    <ul>
+    <!--<ul>
       <li>
         <a
           href="https://vuejs.org"
@@ -44,9 +45,9 @@
           Docs for This Template
         </a>
       </li>
-    </ul>
+    </ul>-->
     <h2>Ecosystem</h2>
-    <ul>
+    <!--<ul>
       <li>
         <a
           href="http://router.vuejs.org/"
@@ -79,7 +80,14 @@
           awesome-vue
         </a>
       </li>
-    </ul>
+    </ul>-->
+    <h3>今天股市有点惨！</h3>
+    <div class="hello">
+      <h1>{{ msg }}</h1>
+      <h2>Essential Links</h2>
+      <h2>Ecosystem</h2>
+      <h3>今天股市有点惨！</h3>
+    </div>
   </div>
 </template>
 
@@ -88,7 +96,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome 123 to Your Vue.js App'
     }
   }
 }
@@ -108,6 +116,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #e518d0;
 }
 </style>

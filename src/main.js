@@ -13,3 +13,11 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+Vue.component(
+  'todo-item',
+  {
+    props: ['todo'],
+    template: '<li>":. " + {{ todo.text }}</li>'
+  }
+)
