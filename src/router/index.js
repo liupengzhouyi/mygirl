@@ -17,6 +17,8 @@ import app_select from '../components/app-select';
 import app_select_for from '../components/app-select-for';
 import link_value from '../components/link-value';
 import app_button from '../components/app-button';
+import use_vue from '../components/use-vue';
+
 
 Vue.use(Router)
 
@@ -101,6 +103,11 @@ export default new Router({
       path: '/app-button',
       name: 'app-button',
       component: app_button
+    },
+    {
+      path: '/use-vue',
+      name: 'use-vue',
+      component: use_vue
     },
 
 
