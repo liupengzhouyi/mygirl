@@ -14,7 +14,7 @@ import app_textarea from '../components/app-textarea';
 import app_checkbox from '../components/app-checkbox';
 import app_radio from '../components/app-radio';
 import app_select from '../components/app-select';
-
+import app_select_for from '../components/app-select-for';
 
 Vue.use(Router)
 
@@ -84,6 +84,11 @@ export default new Router({
       path: '/app-select',
       name: 'app-select',
       component: app_select
+    },
+    {
+      path: '/app-select-for',
+      name: 'app-select-for',
+      component: app_select_for
     }
 
   ]
