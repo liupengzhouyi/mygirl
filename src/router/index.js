@@ -13,6 +13,9 @@ import input_1 from '../components/input1';
 import app_textarea from '../components/app-textarea';
 import app_checkbox from '../components/app-checkbox';
 import app_radio from '../components/app-radio';
+import app_select from '../components/app-select';
+
+
 Vue.use(Router)
 
 export default new Router({
@@ -76,6 +79,11 @@ export default new Router({
       path: '/app-radio',
       name: 'app-radio',
       component: app_radio
+    },
+    {
+      path: '/app-select',
+      name: 'app-select',
+      component: app_select
     }
 
   ]
