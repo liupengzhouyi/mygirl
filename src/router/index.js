@@ -10,7 +10,7 @@ import app_on from '../components/app-on';
 import app_input from '../components/vue-input';
 import new_dome from '../components/newDome';
 import input_1 from '../components/input1';
-
+import app_textarea from '../components/app-textarea';
 
 Vue.use(Router)
 
@@ -60,6 +60,11 @@ export default new Router({
       path: '/input-1',
       name: 'input-1',
       component: input_1
+    },
+    {
+      path: '/app-textarea',
+      name: 'app-textarea',
+      component: app_textarea
     },
   ]
 })
