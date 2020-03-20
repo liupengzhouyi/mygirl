@@ -15,6 +15,8 @@ import app_checkbox from '../components/app-checkbox';
 import app_radio from '../components/app-radio';
 import app_select from '../components/app-select';
 import app_select_for from '../components/app-select-for';
+import link_value from '../components/link-value';
+
 
 Vue.use(Router)
 
@@ -89,7 +91,15 @@ export default new Router({
       path: '/app-select-for',
       name: 'app-select-for',
       component: app_select_for
-    }
+    },
+    {
+      path: '/link-value',
+      name: 'link-value',
+      component: link_value
+    },
+
+
+
 
   ]
 })
