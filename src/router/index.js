@@ -11,7 +11,7 @@ import app_input from '../components/vue-input';
 import new_dome from '../components/newDome';
 import input_1 from '../components/input1';
 import app_textarea from '../components/app-textarea';
-
+import app_checkbox from '../components/app-checkbox';
 Vue.use(Router)
 
 export default new Router({
@@ -66,5 +66,11 @@ export default new Router({
       name: 'app-textarea',
       component: app_textarea
     },
+    {
+      path: '/app-checkbox',
+      name: 'app-checkbox',
+      component: app_checkbox
+    }
+
   ]
 })
