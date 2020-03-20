@@ -16,7 +16,7 @@ import app_radio from '../components/app-radio';
 import app_select from '../components/app-select';
 import app_select_for from '../components/app-select-for';
 import link_value from '../components/link-value';
-
+import app_button from '../components/app-button';
 
 Vue.use(Router)
 
@@ -96,6 +96,11 @@ export default new Router({
       path: '/link-value',
       name: 'link-value',
       component: link_value
+    },
+    {
+      path: '/app-button',
+      name: 'app-button',
+      component: app_button
     },
 
 
