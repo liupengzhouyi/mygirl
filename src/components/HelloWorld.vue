@@ -3,6 +3,7 @@
     <img src="../assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
+    <p>{{ ss }}</p>
     <!--<ul>
       <li>
         <a
@@ -96,7 +97,8 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome 123 to Your Vue.js App'
+      msg: 'Welcome 123 to Your Vue.js App',
+      ss: this.$route.params.toString(),
     }
   }
 }

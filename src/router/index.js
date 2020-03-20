@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 
-import paly from "../components/paly";
+import play from "../components/play";
 import app_2 from "../components/app-2";
 import app_3 from '../components/app-3';
 import app_for from '../components/app-for';
@@ -18,7 +18,7 @@ import app_select_for from '../components/app-select-for';
 import link_value from '../components/link-value';
 import app_button from '../components/app-button';
 import use_vue from '../components/use-vue';
-
+import to_other_page from '../components/to-other-page';
 
 Vue.use(Router)
 
@@ -30,9 +30,14 @@ export default new Router({
       component: HelloWorld
     },
     {
-      path: '/paly',
-      name: 'paly',
-      component: paly
+      path: '/play',
+      name: 'play',
+      component: play
+    },
+    {
+      path: '/play1/:id',
+      name: 'play1',
+      component: play
     },
     {
       path: '/app-2',
@@ -108,6 +113,11 @@ export default new Router({
       path: '/use-vue',
       name: 'use-vue',
       component: use_vue
+    },
+    {
+      path: '/to-other-page',
+      name: 'to-other-page',
+      component: to_other_page
     },
 
 
