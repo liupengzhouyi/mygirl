@@ -7,12 +7,12 @@
 <script>
     export default {
         name: "app-father",
-      props: ["name"],
-      data() {
-          return {
-            name: 'father'
-          }
-      }
+        props: ["name"],
+        data() {
+            return {
+              name: 'father'
+            }
+        }
     }
 </script>
 
