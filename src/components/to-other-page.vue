@@ -4,21 +4,12 @@
       <button>继续</button>
     </router-link>
     <br>
-    <router-link to="/play1/msg">
+    <router-link to="/play1">
       <button>继续1</button>
     </router-link>
     <br>
-    <button @click="pp()">pp</button>
-    <br>
-    <button @click="ppp()">ppp</button>
-    <br>
     <button @click="jump(msg)">jump(msg)</button>
     <br>
-    <router-link :to="{name:play1, params:{id:8907}}">
-      <button>
-        valueString
-      </button>
-    </router-link>
   </div>
 </template>
 
@@ -43,12 +34,6 @@
           //this.$router.go(-2)
           //后退两步
         },
-        pp() {
-          this.$route.push({path:'/play1', query:{id:1}});
-        },
-        ppp() {
-          this.$route.push({path:'/play1', params:{id:1}});//类似post传参
-        }
       }
 
     }
