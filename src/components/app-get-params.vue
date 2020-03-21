@@ -9,7 +9,7 @@
         name: "app-get-params",
         data() {
           return {
-            msg: '',
+            msg: '传过来的参数：',
             id: this.$route.params.id,
             myname: this.$route.params.name,
           }

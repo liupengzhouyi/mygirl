@@ -21,6 +21,8 @@ import use_vue from '../components/use-vue';
 import to_other_page from '../components/to-other-page';
 import app_get_params from '../components/app-get-params';
 import app_params from '../components/app-params';
+import app_father from '../components/app-father';
+
 
 Vue.use(Router)
 
@@ -130,6 +132,11 @@ export default new Router({
       path: '/app-params',
       name: 'app-params',
       component: app_params
+    },
+    {
+      path: '/app-father',
+      name: 'app-father',
+      component: app_father
     },
 
 
