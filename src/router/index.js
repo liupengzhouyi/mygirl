@@ -19,6 +19,8 @@ import link_value from '../components/link-value';
 import app_button from '../components/app-button';
 import use_vue from '../components/use-vue';
 import to_other_page from '../components/to-other-page';
+import app_get_param from '../components/app-get-params';
+import app_params from '../components/app-params';
 
 Vue.use(Router)
 
@@ -119,7 +121,16 @@ export default new Router({
       name: 'to-other-page',
       component: to_other_page
     },
-
+    {
+      path: '/app-get-param/:id/:name',
+      name: 'app-get-param',
+      component: app_get_param
+    },
+    {
+      path: '/app-params',
+      name: 'app-params',
+      component: app_params
+    },
 
 
 
