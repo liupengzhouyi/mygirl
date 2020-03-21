@@ -3,6 +3,16 @@
     <button @click="toPages">
       点击
     </button>
+
+    <br>
+
+    <router-link :to="{name:'app-get-params', params: {id: 23, name: 'liupeng'}}">
+      <button>
+        点击
+      </button>
+    </router-link>
+
+
   </div>
 </template>
 
@@ -13,7 +23,7 @@
           toPages() {
             this.$router.push(
               {
-                name: 'app-get-param',
+                name: 'app-get-params',
                 params: {
                   id: 23,
                   name: 'liupeng',
